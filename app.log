@@ -15,3 +15,21 @@ INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 3.926281
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 0
+INFO:app:time_domain_expiration 0
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 2
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: phishingdomaindetection.azurewebsites.net
+INFO:app:URL: https://phishingdomaindetection.azurewebsites.net/
+INFO:app:*****************Prediction for https://phishingdomaindetection.azurewebsites.net/ is Prediction says phishing URL *************************
