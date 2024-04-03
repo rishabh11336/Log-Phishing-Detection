@@ -1,4 +1,3 @@
-DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
 INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id 3c7384df99afa25c867916dc1d7352186bb3374caea7a58762f0c1b083c2be1d
