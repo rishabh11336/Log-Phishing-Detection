@@ -1,0 +1,97 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-298-117
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\Logging\\logcommit.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-298-117
+INFO:__main__:*****************Prediction opening *************************
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 06:37:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 06:37:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.143814
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 9697
+INFO:app:time_domain_expiration 1624
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 2
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 3
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: mail.google.com
+INFO:app:URL: https://mail.google.com/mail/u/0/
+INFO:__main__:*****************Prediction for https://mail.google.com/mail/u/0/ is Prediction says safe browsing URL *************************
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 06:38:10] "POST / HTTP/1.1" 200 -
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+ERROR:cassandra.connection:Closing connection <AsyncoreConnection(1569132633200) 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-298-117
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\Logging\\logcommit.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-298-117
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-298-117
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 06:40:57] "POST / HTTP/1.1" 200 -
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.14461
+INFO:app:domain_spf 1
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 3175
+INFO:app:time_domain_expiration 3034
+INFO:app:qty_ip_resolved 4
+INFO:app:qty_nameservers 4
+INFO:app:qty_mx_servers 5
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: pypi.org
+INFO:app:URL: https://pypi.org/project/python-dotenv/
+INFO:__main__:*****************Prediction for https://pypi.org/project/python-dotenv/ is Prediction says safe browsing URL *************************
+INFO:werkzeug:127.0.0.1 - - [03/Apr/2024 06:42:09] "POST / HTTP/1.1" 200 -
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+ERROR:cassandra.connection:Closing connection <AsyncoreConnection(1961338256112) 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:35b8121d-0bf7-458a-a4f4-d37143d8d54c'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\Logging\\logcommit.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 806-298-117
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.152383
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 9697
+INFO:app:time_domain_expiration 1624
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 2
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 3
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: mail.google.com
+INFO:app:URL: https://mail.google.com/mail/u/0/
+INFO:__main__:*****************Prediction for https://mail.google.com/mail/u/0/ is Prediction says safe browsing URL *************************
