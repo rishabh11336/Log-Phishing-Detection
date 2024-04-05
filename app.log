@@ -11,3 +11,14 @@ INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler h
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+ERROR:app:Exception on / [HEAD]
+Traceback (most recent call last):
+  File "/tmp/8dc559587b0294e/antenv/lib/python3.9/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/tmp/8dc559587b0294e/antenv/lib/python3.9/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/tmp/8dc559587b0294e/antenv/lib/python3.9/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/tmp/8dc559587b0294e/antenv/lib/python3.9/site-packages/flask/app.py", line 1164, in make_response
+    raise TypeError(
+TypeError: The view function for 'predictui' did not return a valid response. The function either returned None or ended without a return statement.
