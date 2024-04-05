@@ -23,3 +23,21 @@ Traceback (most recent call last):
     raise TypeError(
 TypeError: The view function for 'predictui' did not return a valid response. The function either returned None or ended without a return statement.
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.086013
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 6989
+INFO:app:time_domain_expiration 315
+INFO:app:qty_ip_resolved 16
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.youtube.com
+INFO:app:URL: https://www.youtube.com/watch?v=Nadu3UZeV3o
+INFO:app:*****************Prediction for https://www.youtube.com/watch?v=Nadu3UZeV3o is Prediction says safe browsing URL *************************
