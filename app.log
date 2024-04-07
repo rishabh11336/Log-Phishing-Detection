@@ -132,3 +132,22 @@ WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 910a
 INFO:cassandra.policies:Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:4a9a4582-93bb-4bf1-b281-c49f3c3a544d'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.241
+INFO:app:domain_spf 1
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 1411
+INFO:app:time_domain_expiration 49
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers 2
+INFO:app:qty_mx_servers 1
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 1
+INFO:app:url_google_index 0
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: distritabas.com.ar
+INFO:app:URL: https://distritabas.com.ar/survey/webscr.php?cmd=_login-run&dispatch=5885d80a13c0db1f1ff80d546411d7f8a8350c132bc41e0934cfc023d4e8f9e5bd76c88f5c3439f2e55b7639f529ccb3bd76c88f5c3439f2e55b7639f529ccb3
+INFO:app:*****************Prediction for https://distritabas.com.ar/survey/webscr.php?cmd=_login-run&dispatch=5885d80a13c0db1f1ff80d546411d7f8a8350c132bc41e0934cfc023d4e8f9e5bd76c88f5c3439f2e55b7639f529ccb3bd76c88f5c3439f2e55b7639f529ccb3 is Prediction says phishing URL *************************
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 910ac3f9-61e7-46c9-84eb-08ea4df5d58a-us-east1.db.astra.datastax.com:29042:4a9a4582-93bb-4bf1-b281-c49f3c3a544d. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
