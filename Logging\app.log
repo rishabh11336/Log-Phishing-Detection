@@ -340,3 +340,22 @@ WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3
 INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:6338a25d-1e53-4767-9479-1b463ada74f1'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 04:02:34] "GET /history HTTP/1.1" 200 -
 INFO:__main__:*****************Prediction opening *************************
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 04:02:39] "GET / HTTP/1.1" 200 -
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.161912
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 9702
+INFO:app:time_domain_expiration 1619
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 2
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 3
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: mail.google.com
+INFO:app:URL: https://mail.google.com/mail/u/0/
+INFO:__main__:*****************Prediction for https://mail.google.com/mail/u/0/ is Prediction says safe browsing URL *************************
