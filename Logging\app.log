@@ -382,3 +382,22 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 815-574-733
 INFO:__main__:*****************Prediction opening *************************
+INFO:werkzeug:127.0.0.1 - - [08/Apr/2024 04:07:52] "GET / HTTP/1.1" 200 -
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.146868
+INFO:app:domain_spf 1
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 3180
+INFO:app:time_domain_expiration 3029
+INFO:app:qty_ip_resolved 4
+INFO:app:qty_nameservers 4
+INFO:app:qty_mx_servers 5
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: pypi.org
+INFO:app:URL: https://pypi.org/project/python-dotenv/
+INFO:__main__:*****************Prediction for https://pypi.org/project/python-dotenv/ is Prediction says safe browsing URL *************************
