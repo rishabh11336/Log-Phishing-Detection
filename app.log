@@ -115,3 +115,4 @@ Traceback (most recent call last):
   File "/tmp/8dc5755da1a1302/antenv/lib/python3.9/site-packages/flask/app.py", line 1164, in make_response
     raise TypeError(
 TypeError: The view function for 'predictui' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:app:*****************Prediction opening *************************
