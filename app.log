@@ -117,3 +117,4 @@ Traceback (most recent call last):
 TypeError: The view function for 'predictui' did not return a valid response. The function either returned None or ended without a return statement.
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
