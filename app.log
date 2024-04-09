@@ -34,3 +34,29 @@ INFO:app:Domain: docs.google.com
 INFO:app:URL: https://docs.google.com/a/unmsm.edu.pe/spreadsheet/viewform?formkey=dEZoOXQwTzFkaUJCRTdhVlA3cTAyV1E6MQ
 INFO:app:*****************Prediction for https://docs.google.com/a/unmsm.edu.pe/spreadsheet/viewform?formkey=dEZoOXQwTzFkaUJCRTdhVlA3cTAyV1E6MQ is Prediction says phishing URL *************************
 WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+ERROR:cassandra.connection:Closing connection <LibevConnection(131496822387424) 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.224159
+INFO:app:domain_spf 1
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 8189
+INFO:app:time_domain_expiration 1672
+INFO:app:qty_ip_resolved 4
+INFO:app:qty_nameservers 2
+INFO:app:qty_mx_servers 1
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 1
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: westerncentermuseum.org
+INFO:app:URL: https://westerncentermuseum.org/plugins/tmp/sp.php
+INFO:app:*****************Prediction for https://westerncentermuseum.org/plugins/tmp/sp.php is Prediction says safe browsing URL *************************
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:bbfee2d0-1293-4ef6-8ad8-7eaa4f63d051. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:bbfee2d0-1293-4ef6-8ad8-7eaa4f63d051. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+ERROR:cassandra.connection:Closing connection <LibevConnection(131496834309472) 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:bbfee2d0-1293-4ef6-8ad8-7eaa4f63d051> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:bbfee2d0-1293-4ef6-8ad8-7eaa4f63d051. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
