@@ -123,3 +123,21 @@ INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.706029
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 6159
+INFO:app:time_domain_expiration 50
+INFO:app:qty_ip_resolved 2
+INFO:app:qty_nameservers 4
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: data.mendeley.com
+INFO:app:URL: https://data.mendeley.com/datasets/72ptz43s9v/1
+INFO:app:*****************Prediction for https://data.mendeley.com/datasets/72ptz43s9v/1 is Prediction says safe browsing URL *************************
