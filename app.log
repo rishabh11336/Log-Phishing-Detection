@@ -164,3 +164,23 @@ ERROR:cassandra.connection:Closing connection <LibevConnection(123766615501312) 
 WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
 INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:d2ae27df-272e-4c78-b51b-274f5c521576'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.305146
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 73
+INFO:app:time_domain_expiration 292
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers 4
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 3
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 0
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: horizonsgallery.com
+INFO:app:URL: https://horizonsgallery.com/js/bin/ssl1/_id/www.paypal.com/fr/cgi-bin/webscr/cmd=_registration-run/login.php?cmd=_login-run&amp;dispatch=1471c4bdb044ae2be9e2fc3ec514b88b1471c4bdb044ae2be9e2fc3ec514b88b
+INFO:app:*****************Prediction for https://horizonsgallery.com/js/bin/ssl1/_id/www.paypal.com/fr/cgi-bin/webscr/cmd=_registration-run/login.php?cmd=_login-run&amp;dispatch=1471c4bdb044ae2be9e2fc3ec514b88b1471c4bdb044ae2be9e2fc3ec514b88b is Prediction says phishing URL *************************
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:bbfee2d0-1293-4ef6-8ad8-7eaa4f63d051. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:bbfee2d0-1293-4ef6-8ad8-7eaa4f63d051. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
