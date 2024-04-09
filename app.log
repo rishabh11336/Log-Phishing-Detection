@@ -9,4 +9,3 @@ DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/723a5e_profi
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
 INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 723a5e2d371f6deba79eab8b7c111520c7ef9bd6c79c5131aeeacb774e89c15e
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
-INFO:app:*****************Prediction opening *************************
