@@ -45,3 +45,4 @@ INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
