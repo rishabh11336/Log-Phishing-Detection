@@ -93,3 +93,61 @@ Traceback (most recent call last):
   File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 641, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 401: Unauthorized
+ERROR:cassandra.datastax.cloud:HTTP Error 401: Unauthorized
+Traceback (most recent call last):
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
+    response = urlopen(url, context=config.ssl_context, timeout=timeout)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+ERROR:app:Exception on /history [GET]
+Traceback (most recent call last):
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
+    response = urlopen(url, context=config.ssl_context, timeout=timeout)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "/tmp/8dc58abaef33584/app.py", line 76, in fetchui
+    all_entries = fetch_all_entries()
+  File "/tmp/8dc58abaef33584/connect_database.py", line 60, in fetch_all_entries
+    cluster, session = connect_to_cassandra()
+  File "/tmp/8dc58abaef33584/connect_database.py", line 24, in connect_to_cassandra
+    cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
+  File "cassandra/cluster.py", line 1172, in cassandra.cluster.Cluster.__init__
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 91, in get_cloud_config
+    config = read_metadata_info(config, cloud_config)
+  File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 140, in read_metadata_info
+    raise DriverException("Unable to connect to the metadata service at %s. "
+cassandra.DriverException: Unable to connect to the metadata service at https://74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
