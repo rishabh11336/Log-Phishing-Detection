@@ -341,3 +341,4 @@ WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3
 INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:e5c45364-786f-4686-9cfc-193c25d62a93'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
