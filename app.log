@@ -371,3 +371,4 @@ ERROR:cassandra.connection:Closing connection <LibevConnection(137875001045440) 
 WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:277de8f5-b235-40ad-9731-52e3bad98dbe. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
 INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:277de8f5-b235-40ad-9731-52e3bad98dbe'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
