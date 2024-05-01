@@ -71,3 +71,4 @@ Traceback (most recent call last):
   File "/tmp/8dc58abaef33584/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 140, in read_metadata_info
     raise DriverException("Unable to connect to the metadata service at %s. "
 cassandra.DriverException: Unable to connect to the metadata service at https://74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
+INFO:app:*****************Prediction opening *************************
