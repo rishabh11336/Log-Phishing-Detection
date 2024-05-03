@@ -99,3 +99,22 @@ Traceback (most recent call last):
     raise DriverException("Unable to connect to the metadata service at %s. "
 cassandra.DriverException: Unable to connect to the metadata service at https://74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.081828
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 9727
+INFO:app:time_domain_expiration 1594
+INFO:app:qty_ip_resolved 4
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 3
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: mail.google.com
+INFO:app:URL: https://mail.google.com/mail/u/0/#inbox
+INFO:app:*****************Prediction for https://mail.google.com/mail/u/0/#inbox is Prediction says safe browsing URL *************************
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:916fc842-1996-4fad-bef6-90fdcfb8b68a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
