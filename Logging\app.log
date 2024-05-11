@@ -1,0 +1,98 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 708-203-429
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 708-203-429
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 708-203-429
+ERROR:werkzeug:127.0.0.1 - - [11/May/2024 08:15:47] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:15:47] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03Øzj4Ð'\x1a\x9bo\x0b\x85\x11ûX[\x85©I\x8e\x86\x12¸\x9aJ8¹ðÇÚÓÅj ÿA\x18\x0c\x8e\x17Ä^HN\x93æ\x0c\x82Ëq\x0cmb\x90;\x84ôÄX;Ï¹\x00\x8c]\x95\x00$\x13\x01\x13\x02\x13\x03À/À+À0À,À'Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:127.0.0.1 - - [11/May/2024 08:15:48] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:15:48] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03Z[Ø\x8dch³1Z\x08ôû\x04=\x15"A4,\x99ã\x92¤\x9c \x97c\x7f%w®É ³+Ó\x91cd\x91\x9e*\x13NÄFé)\x12Çßxþf\x8f\x82ò\x17Õ\x0bïÜ;6Â\x00$\x13\x01\x13\x02\x13\x03À/À+À0À,À'Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:127.0.0.1 - - [11/May/2024 08:15:49] code 400, message Bad request version ('À\x13À')
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:15:49] "[35m[1m\x16\x03\x01\x00á\x01\x00\x00Ý\x03\x03à\x97Xu\x11>ÌÌÒÝ\x11T\x0f²\x8aAí\x99N\x96ËÔjºÄÓA\x12¥3É8 \x1a\x86ït>\x83p÷BÜ!¢Éó\x88üìi\x1fã¨«\x8eêr\x8dÂ\x10-Ømÿ\x00$\x13\x01\x13\x02\x13\x03À/À+À0À,À'Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+INFO:app:time_response 0.357991
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 7025
+INFO:app:time_domain_expiration 279
+INFO:app:qty_ip_resolved 16
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.youtube.com
+INFO:app:URL: https://www.youtube.com/@one-arena
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:17:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'D:\\Phishing-detection\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 708-203-429
+INFO:app:time_response 0.346477
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 7025
+INFO:app:time_domain_expiration 279
+INFO:app:qty_ip_resolved 16
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.youtube.com
+INFO:app:URL: https://www.youtube.com/@one-arena
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:18:23] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:app:time_response 0.330945
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 7025
+INFO:app:time_domain_expiration 279
+INFO:app:qty_ip_resolved 16
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.youtube.com
+INFO:app:URL: https://www.youtube.com/@one-arena
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:20:16] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:app:time_response 0.333845
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 7025
+INFO:app:time_domain_expiration 279
+INFO:app:qty_ip_resolved 16
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.youtube.com
+INFO:app:URL: https://www.youtube.com/@one-arena
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:e10be695-209c-4239-a54e-e40cde975ef3. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:e10be695-209c-4239-a54e-e40cde975ef3. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+ERROR:cassandra.connection:Closing connection <AsyncoreConnection(2420379920560) 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:e10be695-209c-4239-a54e-e40cde975ef3> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:e10be695-209c-4239-a54e-e40cde975ef3. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:e10be695-209c-4239-a54e-e40cde975ef3'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
