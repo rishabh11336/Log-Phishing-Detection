@@ -10,3 +10,4 @@ INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler h
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
