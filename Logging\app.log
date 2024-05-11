@@ -102,3 +102,4 @@ INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 708-203-429
 INFO:__main__:*****************Prediction opening *************************
+INFO:werkzeug:127.0.0.1 - - [11/May/2024 08:27:44] "GET / HTTP/1.1" 200 -
