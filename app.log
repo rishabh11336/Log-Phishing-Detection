@@ -47,3 +47,37 @@ Traceback (most recent call last):
   File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 641, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 401: Unauthorized
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 1.308257
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 10156
+INFO:app:time_domain_expiration 133
+INFO:app:qty_ip_resolved 2
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 2
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 1
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.game.co.uk
+INFO:app:URL: http://www.game.co.uk/en/games/nintendo-switch/nintendo-switch
+ERROR:cassandra.datastax.cloud:HTTP Error 401: Unauthorized
+Traceback (most recent call last):
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
+    response = urlopen(url, context=config.ssl_context, timeout=timeout)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 523, in open
+    response = meth(req, response)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 632, in http_response
+    response = self.parent.error(
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 561, in error
+    return self._call_chain(*args)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/opt/python/3.9.18/lib/python3.9/urllib/request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
