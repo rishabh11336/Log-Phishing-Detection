@@ -8,3 +8,4 @@ INFO:appsvc_profiler.installer:Successfully installed code profiler.
 INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 1fc6b887b87742f74b1469d52c944bf088641565409c6d6802efae1bc217daa8
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
