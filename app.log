@@ -20,3 +20,4 @@ WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3
 INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:854f0720-b477-42b5-9308-5cc473b0f907'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:854f0720-b477-42b5-9308-5cc473b0f907). Excluding peer 10.13.205.56
 INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f removed
+INFO:app:*****************Prediction opening *************************
