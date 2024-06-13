@@ -1,19 +1,90 @@
+INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
+INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
+DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
+DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
+INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
+DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/32c737_profiler_trace.json
+INFO:appsvc_profiler.installer:Successfully installed code profiler.
+INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 32c7375063fccbb5e969ce4b35d934812d95309319119d30c406be32d0b1ccb2
+DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
 DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
-INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id cc8f72f932c68de6d9cb9fbf1ce31bb68571e50921f809af7a07d0bceb35a578
+INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id 32c7375063fccbb5e969ce4b35d934812d95309319119d30c406be32d0b1ccb2
 INFO:appsvc_profiler.installer:successfully deleted the status file
 DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
 INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
-DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/cc8f72_profiler_trace.json
+DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/32c737_profiler_trace.json
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
-INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance cc8f72f932c68de6d9cb9fbf1ce31bb68571e50921f809af7a07d0bceb35a578
+INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 32c7375063fccbb5e969ce4b35d934812d95309319119d30c406be32d0b1ccb2
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
-INFO:app:*****************Prediction opening *************************
-WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-ERROR:cassandra.connection:Closing connection <LibevConnection(125271640135232) 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
-WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
-WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:02ce5866-9e2c-4b58-afe4-680df4d8b91f). Excluding peer 10.13.219.128
-INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:f0765722-b52b-41f4-bb6f-dfa81aee02a0 removed
+ERROR:app:Exception on /robots933456.txt [GET]
+Traceback (most recent call last):
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connection.py", line 653, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connection.py", line 806, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 465, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/util/ssl_.py", line 509, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/opt/python/3.9.18/lib/python3.9/ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/opt/python/3.9.18/lib/python3.9/ssl.py", line 1074, in _create
+    self.do_handshake()
+  File "/opt/python/3.9.18/lib/python3.9/ssl.py", line 1343, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: EOF occurred in violation of protocol (_ssl.c:1129)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/urllib3/util/retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/rishabh11336/Log-Phishing-Detection/git/refs/heads/main (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 894, in finalize_request
+    response = self.process_response(response)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 1271, in process_response
+    response = self.ensure_sync(func)(response)
+  File "/tmp/8dc7167740e9d97/app.py", line 116, in after_request
+    commit_to_github(commit_message=commit_message)
+  File "/tmp/8dc7167740e9d97/Logging/logcommit.py", line 93, in commit_to_github
+    to_github(
+  File "/tmp/8dc7167740e9d97/Logging/logcommit.py", line 36, in to_github
+    response = requests.get(url, headers=headers)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/rishabh11336/Log-Phishing-Detection/git/refs/heads/main (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
