@@ -1,6 +1,8 @@
 DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
+INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id bda878cffb7fdf6e967f5e7f2cc80f6a2d5af54229ce993d617d2fd35875954e
+INFO:appsvc_profiler.installer:successfully deleted the status file
 DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
 INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
 DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/bda878_profiler_trace.json
