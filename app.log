@@ -1,23 +1,11 @@
+DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
+INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id 8c1e5c3404b884f92199a1d36795b430e2bd531644923fabdb4908cd82cd163c
+INFO:appsvc_profiler.installer:successfully deleted the status file
 DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
-DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
-DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/1717b3_profiler_trace.json
+DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/8c1e5c_profiler_trace.json
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
-INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 1717b3c6d3bbb08ddbc87ee914e9c6368af49f25bd029410c0b64e45759b230b
+INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 8c1e5c3404b884f92199a1d36795b430e2bd531644923fabdb4908cd82cd163c
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
-ERROR:app:Exception on / [HEAD]
-Traceback (most recent call last):
-  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 1463, in wsgi_app
-    response = self.full_dispatch_request()
-  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 873, in full_dispatch_request
-    return self.finalize_request(rv)
-  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 892, in finalize_request
-    response = self.make_response(rv)
-  File "/tmp/8dc7167740e9d97/antenv/lib/python3.9/site-packages/flask/app.py", line 1164, in make_response
-    raise TypeError(
-TypeError: The view function for 'predictui' did not return a valid response. The function either returned None or ended without a return statement.
