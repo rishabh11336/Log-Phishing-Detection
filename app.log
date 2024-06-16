@@ -1,23 +1,11 @@
 DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
+INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id b48e99ae39c2631bdbfaff480078c704864fb7435737f78ac9c0af67dc0f25d5
+INFO:appsvc_profiler.installer:successfully deleted the status file
 DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
 INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
 DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/b48e99_profiler_trace.json
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
 INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance b48e99ae39c2631bdbfaff480078c704864fb7435737f78ac9c0af67dc0f25d5
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
-INFO:app:*****************Prediction opening *************************
-WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
-WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a). Excluding peer 10.0.0.5
-INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46 removed
-INFO:app:*****************Prediction opening *************************
-WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
-INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
-WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a). Excluding peer 10.0.0.5
-INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46 removed
