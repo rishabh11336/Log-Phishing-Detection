@@ -1,11 +1,9 @@
-DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
+DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
 INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
-DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/18fed3_profiler_trace.json
+DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/004249_profiler_trace.json
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
-INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 18fed31e368766a53bb8fe371f0ed7ccd1f6a365bc060d196ee530f5fa81d570
+INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 004249e9fb0eec022da5f5cd88d24abf01465ff1cb61a03116d48c4a0329538b
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
