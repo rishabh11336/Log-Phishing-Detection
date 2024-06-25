@@ -53,3 +53,28 @@ Traceback (most recent call last):
   File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 641, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 401: Unauthorized
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2024 19:59:31] "POST / HTTP/1.1" 200 -
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.564588
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 8564
+INFO:app:time_domain_expiration 201
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: en.wikipedia.org
+INFO:app:URL: https://en.wikipedia.org/wiki/Indian_Premier_League
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c). Excluding peer 10.0.0.7
+INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46 removed
+INFO:__main__:*****************Prediction for https://en.wikipedia.org/wiki/Indian_Premier_League is Prediction says safe browsing URL *************************
