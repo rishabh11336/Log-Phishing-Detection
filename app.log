@@ -9,3 +9,77 @@ DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/c20f4f_profi
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
 INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance c20f4f091dde7fb92ca32c5e71f1247d15376f2b4b89c0dffe581e3d59c33c83
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
+ERROR:cassandra.connection:Did not get expected SupportedMessage response; instead, got: <Error from server: code=000a [Protocol error] message="Invalid or unsupported protocol version 66">
+WARNING:cassandra.cluster:[control connection] Error connecting to 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3577, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:[control connection] Error connecting to 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3577, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3654, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 3635, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/connection.py", line 1126, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra/connection.py", line 1124, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra/connection.py", line 1636, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:b4f6d9ed-0f1d-3f7a-82f1-a4a7ea4f84d4'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+WARNING:cassandra.cluster:[control connection] Error connecting to 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:b4f6d9ed-0f1d-3f7a-82f1-a4a7ea4f84d4:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3577, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3654, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 3651, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 3753, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra/metadata.py", line 140, in cassandra.metadata.Metadata.refresh
+  File "cassandra/metadata.py", line 163, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra/metadata.py", line 2868, in get_all_keyspaces
+  File "cassandra/metadata.py", line 2518, in get_all_keyspaces
+  File "cassandra/metadata.py", line 2027, in get_all_keyspaces
+  File "cassandra/metadata.py", line 2807, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra/connection.py", line 1126, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra/connection.py", line 1124, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra/connection.py", line 1636, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:190dafab-6970-3a67-a21c-1226360de7dc). Excluding peer 10.0.0.1
+INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:b4f6d9ed-0f1d-3f7a-82f1-a4a7ea4f84d4 removed
+WARNING:cassandra.cluster:Failed to create connection pool for new host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0750e59f-441b-37bb-b0a7-e097c5d725f7:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3234, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra/pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+WARNING:cassandra.cluster:Failed to create connection pool for new host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:0669df0f-031f-383e-b452-67a9679bbc6a:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3234, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra/pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+WARNING:cassandra.cluster:Failed to create connection pool for new host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3234, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra/pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+WARNING:cassandra.cluster:Failed to create connection pool for new host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3234, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra/pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+WARNING:cassandra.cluster:Failed to create connection pool for new host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3234, in cassandra.cluster.Session.add_or_renew_pool.run_add_or_renew_pool
+  File "cassandra/pool.py", line 406, in cassandra.pool.HostConnection.__init__
+  File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
