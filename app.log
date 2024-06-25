@@ -93,3 +93,46 @@ INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy
 WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:9e3a5bee-3d95-3bf7-90f5-09bd2177324b). Excluding peer 10.0.0.6
 INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46 removed
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.179205
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 7070
+INFO:app:time_domain_expiration 234
+INFO:app:qty_ip_resolved 16
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 0
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: www.youtube.com
+INFO:app:URL: https://www.youtube.com/results?search_query=speech+dataprocessing
+INFO:app:*****************Prediction for https://www.youtube.com/results?search_query=speech+dataprocessing is Prediction says safe browsing URL *************************
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c). Excluding peer 10.0.0.7
+INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46 removed
+WARNING:cassandra.cluster:[control connection] Error connecting to 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00958fd0-af98-391f-9f51-7e3fe763da5c:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3577, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3654, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 3651, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 3753, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra/metadata.py", line 140, in cassandra.metadata.Metadata.refresh
+  File "cassandra/metadata.py", line 163, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra/metadata.py", line 2868, in get_all_keyspaces
+  File "cassandra/metadata.py", line 2518, in get_all_keyspaces
+  File "cassandra/metadata.py", line 2027, in get_all_keyspaces
+  File "cassandra/metadata.py", line 2807, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra/connection.py", line 1126, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra/connection.py", line 1124, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra/connection.py", line 1636, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+INFO:cassandra.cluster:New Cassandra host <Host: 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46 us-east-1> discovered
+WARNING:cassandra.cluster:Found multiple hosts with the same endpoint (74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:678e6a1d-e5b1-3cba-b949-7bfaf823957f). Excluding peer 10.0.0.4
+INFO:cassandra.cluster:Cassandra host 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:b4f6d9ed-0f1d-3f7a-82f1-a4a7ea4f84d4 removed
