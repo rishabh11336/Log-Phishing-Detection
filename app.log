@@ -85,3 +85,4 @@ Traceback (most recent call last):
 cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
