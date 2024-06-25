@@ -18,3 +18,38 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 125-967-605
 INFO:__main__:*****************Prediction opening *************************
 INFO:werkzeug:127.0.0.1 - - [25/Jun/2024 19:59:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2024 19:59:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:__main__:*****************Prediction for URL started *************************
+INFO:app:time_response 0.611718
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 8564
+INFO:app:time_domain_expiration 201
+INFO:app:qty_ip_resolved 1
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 0
+INFO:app:url_google_index 1
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: en.wikipedia.org
+INFO:app:URL: https://en.wikipedia.org/wiki/Indian_Premier_League
+ERROR:cassandra.datastax.cloud:HTTP Error 401: Unauthorized
+Traceback (most recent call last):
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\site-packages\cassandra\datastax\cloud\__init__.py", line 137, in read_metadata_info
+    response = urlopen(url, context=config.ssl_context, timeout=timeout)
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 523, in open
+    response = meth(req, response)
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 632, in http_response
+    response = self.parent.error(
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 561, in error
+    return self._call_chain(*args)
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "C:\Users\Gigar\anaconda3\envs\phishingDomain\lib\urllib\request.py", line 641, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
