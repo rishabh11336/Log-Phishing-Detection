@@ -213,3 +213,14 @@ Traceback (most recent call last):
   File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/requests/adapters.py", line 517, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='api.github.com', port=443): Max retries exceeded with url: /repos/rishabh11336/Log-Phishing-Detection/git/refs/heads/main (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
+ERROR:app:Exception on / [HEAD]
+Traceback (most recent call last):
+  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/flask/app.py", line 873, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/flask/app.py", line 892, in finalize_request
+    response = self.make_response(rv)
+  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/flask/app.py", line 1164, in make_response
+    raise TypeError(
+TypeError: The view function for 'predictui' did not return a valid response. The function either returned None or ended without a return statement.
