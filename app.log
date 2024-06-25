@@ -83,3 +83,4 @@ Traceback (most recent call last):
   File "cassandra/cluster.py", line 1670, in cassandra.cluster.Cluster.connection_factory
   File "cassandra/connection.py", line 855, in cassandra.connection.Connection.factory
 cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+INFO:app:*****************Prediction opening *************************
