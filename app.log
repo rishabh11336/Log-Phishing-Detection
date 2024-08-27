@@ -398,3 +398,25 @@ WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3
 INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:00694036-11ec-39fb-8238-d79afd9b0e46'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction for URL started *************************
+INFO:app:*****************Prediction for URL started *************************
+INFO:app:time_response 0.031188
+INFO:app:domain_spf 0
+INFO:app:asn_ip 1
+INFO:app:time_domain_activation 9842
+INFO:app:time_domain_expiration 1479
+INFO:app:qty_ip_resolved 4
+INFO:app:qty_nameservers None
+INFO:app:qty_mx_servers None
+INFO:app:ttl_hostname 1
+INFO:app:tls_ssl_certificate 1
+INFO:app:qty_redirects 3
+INFO:app:url_google_index 0
+INFO:app:domain_google_index 0
+INFO:app:url_shortened 0
+INFO:app:Domain: mail.google.com
+INFO:app:URL: https://mail.google.com/mail/u/0/#inbox
+INFO:app:*****************Prediction for https://mail.google.com/mail/u/0/#inbox is Prediction says safe browsing URL *************************
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for 74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+INFO:cassandra.policies:Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29042:98a2cd7e-fa1b-3950-942e-42af495c4248'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
