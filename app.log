@@ -52,3 +52,4 @@ Traceback (most recent call last):
 urllib.error.URLError: <urlopen error _ssl.c:1116: The handshake operation timed out>
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
