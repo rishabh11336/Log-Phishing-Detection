@@ -103,3 +103,4 @@ Traceback (most recent call last):
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 401: Unauthorized
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
