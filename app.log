@@ -30,3 +30,4 @@ Traceback (most recent call last):
 urllib.error.HTTPError: HTTP Error 401: Unauthorized
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
