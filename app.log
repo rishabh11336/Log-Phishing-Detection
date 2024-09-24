@@ -1,88 +1,9 @@
 DEBUG:appServiceAppLogs:Waiting for the logs flag to be set
 INFO:appsvc_profiler.installer:Code Profiler Installer is starting up
 INFO:appsvc_profiler.installer:Cleaning up any existing status file which indicated signal handlers initialized status
-INFO:appsvc_profiler.installer:Attempting to delete the signal_handler status file for instance id bcf44d659ba300c7830a43c66f543def03d4ae7e888c5d45ba7b064e17b52927
-INFO:appsvc_profiler.installer:successfully deleted the status file
 DEBUG:appsvc_profiler.installer:APPSETTING_WEBSITE_ENABLE_DEFAULT_CODE_PROFILER : None
 INFO:appsvc_profiler.installer:Attempting to install the default code profiler.
-DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/bcf44d_profiler_trace.json
+DEBUG:appsvc_profiler.installer:viztracer would save traces to /tmp/4df906_profiler_trace.json
 INFO:appsvc_profiler.installer:Successfully installed code profiler.
-INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance bcf44d659ba300c7830a43c66f543def03d4ae7e888c5d45ba7b064e17b52927
+INFO:appsvc_profiler.installer:Signal Handlers SIGUSR for needed code-profiler have been initialized for gunicorn process on instance 4df906365f2963bce3c55b825eb66120987d8ecbd2610ee3dc90a50fdc2458e4
 DEBUG:appsvc_profiler.installer:Code Profiler Installer is exiting as installation is completed
-ERROR:cassandra.datastax.cloud:HTTP Error 401: Unauthorized
-Traceback (most recent call last):
-  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
-    response = urlopen(url, context=config.ssl_context, timeout=timeout)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 214, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 523, in open
-    response = meth(req, response)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 632, in http_response
-    response = self.parent.error(
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 561, in error
-    return self._call_chain(*args)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 494, in _call_chain
-    result = func(*args)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 641, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction for URL started *************************
-INFO:app:time_response 1.233842
-INFO:app:domain_spf 0
-INFO:app:asn_ip 1
-INFO:app:time_domain_activation 1328
-INFO:app:time_domain_expiration 132
-INFO:app:qty_ip_resolved 1
-INFO:app:qty_nameservers 2
-INFO:app:qty_mx_servers None
-INFO:app:ttl_hostname 1
-INFO:app:tls_ssl_certificate 1
-INFO:app:qty_redirects 1
-INFO:app:url_google_index 1
-INFO:app:domain_google_index 0
-INFO:app:url_shortened 0
-INFO:app:Domain: fofa.info
-INFO:app:URL: Http://fofa.info
-INFO:app:*****************Prediction for Http://fofa.info is Prediction says safe browsing URL *************************
-ERROR:cassandra.datastax.cloud:HTTP Error 401: Unauthorized
-Traceback (most recent call last):
-  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
-    response = urlopen(url, context=config.ssl_context, timeout=timeout)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 214, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 523, in open
-    response = meth(req, response)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 632, in http_response
-    response = self.parent.error(
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 561, in error
-    return self._call_chain(*args)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 494, in _call_chain
-    result = func(*args)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 641, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-ERROR:app:*****************Database is not working*************************
-INFO:app:*****************Prediction opening *************************
-ERROR:cassandra.datastax.cloud:HTTP Error 401: Unauthorized
-Traceback (most recent call last):
-  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
-    response = urlopen(url, context=config.ssl_context, timeout=timeout)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 214, in urlopen
-    return opener.open(url, data, timeout)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 523, in open
-    response = meth(req, response)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 632, in http_response
-    response = self.parent.error(
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 561, in error
-    return self._call_chain(*args)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 494, in _call_chain
-    result = func(*args)
-  File "/opt/python/3.9.19/lib/python3.9/urllib/request.py", line 641, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
-INFO:app:*****************Prediction opening *************************
