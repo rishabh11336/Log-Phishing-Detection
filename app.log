@@ -122,3 +122,4 @@ cassandra.DriverException: Unable to connect to the metadata service at https://
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction for URL started *************************
+INFO:app:*****************Prediction for URL started *************************
