@@ -121,3 +121,4 @@ Traceback (most recent call last):
 cassandra.DriverException: Unable to connect to the metadata service at https://74f3ea48-05df-4249-a12b-fac40645190d-us-east-1.db.astra.datastax.com:29080/metadata. Check the cluster status in the cloud console. 
 INFO:app:*****************Prediction opening *************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction for URL started *************************
