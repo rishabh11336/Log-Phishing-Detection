@@ -203,3 +203,45 @@ Traceback (most recent call last):
     raise URLError(err)
 urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 INFO:app:*****************Prediction opening *************************
+ERROR:cassandra.datastax.cloud:<urlopen error [Errno -2] Name or service not known>
+Traceback (most recent call last):
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 1346, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 1285, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 1331, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 1280, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 1040, in _send_output
+    self.send(msg)
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 980, in send
+    self.connect()
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 1447, in connect
+    super().connect()
+  File "/opt/python/3.9.21/lib/python3.9/http/client.py", line 946, in connect
+    self.sock = self._create_connection(
+  File "/opt/python/3.9.21/lib/python3.9/socket.py", line 835, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/opt/python/3.9.21/lib/python3.9/socket.py", line 966, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/8dc9524939e911d/antenv/lib/python3.9/site-packages/cassandra/datastax/cloud/__init__.py", line 137, in read_metadata_info
+    response = urlopen(url, context=config.ssl_context, timeout=timeout)
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 517, in open
+    response = self._open(req, data)
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 494, in _call_chain
+    result = func(*args)
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "/opt/python/3.9.21/lib/python3.9/urllib/request.py", line 1349, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
