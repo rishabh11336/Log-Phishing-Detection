@@ -543,3 +543,4 @@ Traceback (most recent call last):
 urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>
 ERROR:app:*****************Database is not working*************************
 INFO:app:*****************Prediction opening *************************
+INFO:app:*****************Prediction opening *************************
